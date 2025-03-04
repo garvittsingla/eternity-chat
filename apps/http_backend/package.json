@@ -1,0 +1,26 @@
+{
+  "name": "http_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@repo/zod": "workspace:*",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "backendcommon": "workspace:*",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "db": "workspace:*",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
